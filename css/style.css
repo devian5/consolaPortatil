@@ -1,0 +1,53 @@
+html,body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    height: 100%;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 80%;
+    margin-top: 4.3em;
+}
+
+.chassis {
+    display: flex;
+
+    background-color: rgb(154, 204, 36);
+    width: 25em;
+    height: 40em;
+    border-radius: 1em 1em 2em 2em;
+}
+
+.displayContainer {
+    margin: 1.25em 1.25em 1em;
+}
+
+.borderScreen {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(56, 60, 63);
+    width: 22.5em;
+    height: 18.5em;
+    border-radius: 0.5em 0.5em 1em 1em;
+}
+
+.circumferenceSreen {
+    margin-top: 16.5em;
+    background-color: rgb(56, 60, 63);
+    height: 45.5px;
+    width: 570px;
+    border-radius: 40%;
+    display: inline-block;
+
+}
